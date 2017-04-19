@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Caculate Tdee Below!
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <form (ngSubmit)="onSubmit()">
+        Height in Cm: <input type="number" name="height" id="form_height"> <br>
+        Weight in Kg: <input type="number" name="weight" id="form_weight"> <br>    
+        <button type="submit"> Submit </button>
+        <br><br><br>
+        Your TDEE is: <input type="number" name="TDEE" id="tdee_form"><br>
+
+
+    </form>
+
+</ion-content>
